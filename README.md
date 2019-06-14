@@ -1,6 +1,6 @@
 # search-algorithms
 Research about different search algorithms: B&B, B&B with heuristics, DFS and BFS.
-It compares between two different algorithms, branch and hop, and branch and hop with underestimation.
+It compares between two different algorithms, branch and bound, and branch and bound with underestimation.
 
 The following classes have been added to the utils.py file:
 
