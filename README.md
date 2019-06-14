@@ -1,15 +1,12 @@
 # search-algorithms
 Research about different search algorithms: B&B, B&B with heuristics, DFS and BFS.
+It compares between two different algorithms, branch and hop, and branch and hop with underestimation.
 
-# Informe
-Se compara entre dos algoritmos diferentes ramificación y salto, y ramificación y salto con subestimación. 
+The following classes have been added to the utils.py file:
 
-Se ha añadido al fichero utils.py las siguientes clases:
+"babg" Based on the structure of the FIFOQueue class modifying the extended method by adding the sort order of the list to the path_cost.
 
-babg Basada en la estructura de la clase FIFOQueue modificando el método extend añadidiendo la ordenación de la lista por el path_cost.
+"babgsub" Based on the structure of the FIFOQueue class modifying the extended method by adding the sort order of the list by the sum of the path_cost together with the given heuristic in the problem class.
 
-babgsub Basada en la estructura de la clase FIFOQueue modificando el método extend añadidiendo la ordenación de la lista por  la suma del path_cost junto con de la heurística dada en la clase problem.
-
-Se ha añadido al fichero search.py a la clase graph_search:
-branch_and_bound y branch_and_bound_sud que devuelven la búsqueda del árbol correspondiente.
-
+The graph_search class has been added to the search.py file:
+branch_and_bound and branch_and_bound_sud that return the corresponding tree search.
